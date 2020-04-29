@@ -23,13 +23,13 @@
    
         <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" href="/"> The ARTHUB</a>
+            <a class="nav-link active" href="#"> The ARTHUB</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>">Home</a>
         </li>
         <li>
-        <a class="nav-link" href="<?php echo base_url(); ?>index.php/about" >About</a>
+        <a class="nav-link" href="<?php echo base_url(); ?>about" >About</a>
         
         </li>
         
