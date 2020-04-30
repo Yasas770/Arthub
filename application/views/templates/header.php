@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css"  href="<?php echo base_url(); ?>/assets/css/style.css">
 
     <title>ArtHub</title>
   </head>
@@ -23,13 +24,17 @@
    
         <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" href="#"> The ARTHUB</a>
+            <a class="nav-link active" href="<?php echo base_url(); ?>"> The ARTHUB</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url(); ?>">Home</a>
         </li>
         <li>
         <a class="nav-link" href="<?php echo base_url(); ?>about" >About</a>
+        
+        </li>
+        <li>
+        <a class="nav-link" href="<?php echo base_url(); ?>posts" >blog</a>
         
         </li>
         
