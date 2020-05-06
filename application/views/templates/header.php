@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css"  href="<?php echo base_url(); ?>/assets/css/style.css">
 
     <title>ArtHub</title>
+    <script src="http://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
   </head>
   <body>
      
@@ -37,8 +38,11 @@
         <a class="nav-link" href="<?php echo base_url(); ?>posts" >blog</a>
         
         </li>
+        <li class="nav-item" style="margin-left: 750px">
+            <a class="nav-link" href="<?php echo base_url(); ?>posts/create">create a post</a>
+        </li>
         
-        </ul>
+        
 
 </div>
 
